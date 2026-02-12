@@ -4,16 +4,11 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div>
-    <nav>
-      <Navbar/>
-    </nav>
-    <main>
-      <Landing/>
-    </main>
-    <footer>
-      <Footer/>
-    </footer>
-    </div>
+    <>
+      <Navbar />
+      <Landing />
+      <Footer />
+    </>
   );
 }
+

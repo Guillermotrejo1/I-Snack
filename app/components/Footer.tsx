@@ -1,49 +1,83 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-r from-blue-600 via-teal-500 to-green-500 text-white'>
-      <div className='max-w-6xl mx-auto px-6 py-10'>
-        <div className='grid gap-8 md:grid-cols-3'>
+    <footer id="contact" className="bg-gradient-to-r from-blue-700 via-teal-600 to-green-600 text-white">
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid gap-12 md:grid-cols-3 mb-12">
           <div>
-            <h3 className='text-2xl font-semibold font-["Space_Grotesk"]'>I-Snack</h3>
-            <p className='mt-2 text-sm text-white/90 max-w-xs'>
-              Fresh, fast, and flavorful bites crafted for busy days and easy nights.
+            <h3 className="text-3xl font-bold font-poppins mb-3">I-Snack</h3>
+            <p className="text-sm text-blue-100 max-w-xs">
+              Fresh, fast, and flavorful bites crafted for busy days and easy nights. Experience authentic flavors in every bite.
             </p>
           </div>
 
           <div>
-            <h4 className='text-lg font-semibold'>Explore</h4>
-            <ul className='mt-3 grid grid-cols-2 gap-2 text-sm'>
-              <li className='hover:text-white/80'>Home</li>
-              <li className='hover:text-white/80'>Menu</li>
-              <li className='hover:text-white/80'>Contact</li>
-              <li className='hover:text-white/80'>About</li>
+            <h4 className="text-xl font-bold font-poppins mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a
+                  href="#home"
+                  className="text-blue-100 hover:text-white transition-colors"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#menu"
+                  className="text-blue-100 hover:text-white transition-colors"
+                >
+                  Menu
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#testimonials"
+                  className="text-blue-100 hover:text-white transition-colors"
+                >
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-blue-100 hover:text-white transition-colors"
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h4 className='text-lg font-semibold'>Contact</h4>
-            <ul className='mt-3 space-y-2 text-sm text-white/90'>
-              <li>hello@isnack.com</li>
-              <li>(830) 556-2862</li>
-              <li>Mon-Closed</li>
-              <li>Tue-Sun: 2:30pm - 8:30pm</li>
+            <h4 className="text-xl font-bold font-poppins mb-4">Contact Info</h4>
+            <ul className="space-y-3 text-sm text-blue-100">
+              <li>📧 hello@isnack.com</li>
+              <li>📞 (830) 556-2862</li>
+              <li>🕐 Mon: Closed</li>
+              <li>🕐 Tue-Sun: 2:30pm - 8:30pm</li>
             </ul>
           </div>
         </div>
 
-        <div className='mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/30 pt-6 text-xs text-white/80 md:flex-row'>
+        <div className="border-t border-white/20 pt-8 flex flex-col items-center justify-between gap-4 md:flex-row text-sm text-blue-100">
           <span>© 2026 I-Snack. All rights reserved.</span>
-          <div className='flex gap-4'>
-            <span className='hover:text-white'>Privacy</span>
-            <span className='hover:text-white'>Terms</span>
-            <span className='hover:text-white'>Sitemap</span>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Terms
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Sitemap
+            </a>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
