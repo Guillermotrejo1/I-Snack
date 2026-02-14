@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <Image
-            src="/logo.png"
+            src="/images/logo.jpg"
             alt="I-Snack Logo"
             width={60}
             height={60}

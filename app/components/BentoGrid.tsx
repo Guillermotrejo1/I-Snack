@@ -34,7 +34,8 @@ const BentoGrid = () => {
             Featured Favorites
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Try our most popular snacks, handpicked for their authentic flavor and quality.
+            Try our most popular snacks, handpicked for their authentic flavor
+            and quality.
           </p>
         </div>
 
@@ -64,17 +65,32 @@ const BentoGrid = () => {
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-blue-600 to-green-500 rounded-2xl p-12 text-center text-white shadow-xl">
-          <h4 className="text-3xl font-bold font-poppins mb-4">Ready to Order?</h4>
+          <h4 className="text-3xl font-bold font-poppins mb-4">
+            Visit Us Today
+          </h4>
           <p className="text-lg mb-6 text-blue-100">
-            Visit us today or call to place your order. Fresh snacks ready when you are!
+            Fresh snacks made daily. Stop by for a treat or call us with any
+            questions.
           </p>
+          <div className="mb-6 text-sm text-blue-100">
+            <div>📍 706 S Austin St, Seguin TX</div>
+            <div>🕒 Tue–Sun: 2:30pm – 8:30pm • Mon: Closed</div>
+          </div>
           <div className="flex gap-4 justify-center flex-wrap">
-            <button className="bg-white text-green-600 font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform shadow-lg">
-              Order Now
-            </button>
-            <button className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-green-600 transition-all">
-              Contact Us
-            </button>
+            <a
+              href="https://maps.google.com/?q=706%20S%20Austin%20St%20Seguin%20TX"
+              className="bg-white text-green-600 font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform shadow-lg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions
+            </a>
+            <a
+              href="tel:+18304062372"
+              className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-green-600 transition-all"
+            >
+              Call Us
+            </a>
           </div>
         </div>
       </div>

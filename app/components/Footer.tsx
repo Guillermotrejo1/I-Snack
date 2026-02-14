@@ -54,7 +54,7 @@ const Footer = () => {
             <h4 className="text-xl font-bold font-poppins mb-4">Contact Info</h4>
             <ul className="space-y-3 text-sm text-blue-100">
               <li>📧 hello@isnack.com</li>
-              <li>📞 (830) 556-2862</li>
+              <li>📞 (830) 406-2372</li>
               <li>🕐 Mon: Closed</li>
               <li>🕐 Tue-Sun: 2:30pm - 8:30pm</li>
             </ul>
