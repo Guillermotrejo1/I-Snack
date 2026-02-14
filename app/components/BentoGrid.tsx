@@ -46,7 +46,7 @@ const BentoGrid = () => {
         </div>
 
         {/* Divider */}
-        <div className="h-1 bg-gradient-to-r from-blue-500 to-green-500 rounded-full mb-16 max-w-xs mx-auto"></div>
+        <div className="h-px bg-gray-200 mb-12 max-w-md mx-auto"></div>
 
         {/* Full Menu Title */}
         <div className="text-center mb-12">
