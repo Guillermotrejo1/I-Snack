@@ -36,11 +36,6 @@ const Navbar = () => {
               About
             </a>
           </li>
-          <li>
-            <button className="bg-white text-teal-600 font-bold px-6 py-2 rounded-lg hover:bg-blue-50 transition-all shadow-md">
-              Order Now
-            </button>
-          </li>
         </ul>
       </div>
     </nav>

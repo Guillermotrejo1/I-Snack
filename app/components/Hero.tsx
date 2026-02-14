@@ -12,14 +12,14 @@ const Hero = () => {
           Fresh, fast, and flavorful bites crafted for busy days and easy nights. 
           Discover authentic flavors that will transform your snacking experience.
         </p>
-        <div className="flex gap-4 justify-center">
+        {/* <div className="flex gap-4 justify-center">
           <button className="bg-white text-teal-600 font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform shadow-lg">
             Explore Menu
           </button>
           <button className="border-2 border-white text-white font-bold px-8 py-3 rounded-lg hover:bg-white hover:text-teal-600 transition-all">
             Learn More
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

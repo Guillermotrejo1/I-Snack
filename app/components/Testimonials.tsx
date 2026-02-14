@@ -4,23 +4,30 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Maria Garcia",
+      name: "Jezzie",
       role: "Regular Customer",
-      text: "I-Snack's elote chorreado is absolutely amazing! Fresh, authentic taste every time. Can't recommend it enough!",
+      text: "Delicious home-made ice cream! ❤️ Staff is very nice and friendly when ordering. Helped my kids with everything they wanted on their ice cream! Food looks better and hooked up then the pictures. Will definitely be coming back! Gansito split and elote chorreado YUM 😋 pricing is great and reasonable!",
       rating: 5,
     },
     {
       id: 2,
-      name: "Carlos Rodriguez",
-      role: "Office Manager",
-      text: "We order from I-Snack for our office events. The variety and quality are unmatched. Our team loves it!",
+      name: "Emily Morales Avila",
+      role: "Happy Customer",
+      text: "Amazing customer service! 👌🏼 And filled with great recommendations. The food is so delicious and the location cute. You can totally tell the food and products are authentic. Give it a try!",
       rating: 5,
     },
     {
       id: 3,
-      name: "Sofia Mendez",
-      role: "Food Blogger",
-      text: "Best authentic snacks in town. The preparation and ingredient quality really shines through. 10/10!",
+      name: "Jenna Bowman",
+      role: "Happy Customer",
+      text: "We stopped here after a very long day and was so excited about some ice cream! Walking in you instantly fall in love with the atmosphere and friendly server! We got two kiddie and a two flavor cone, huge portions for a great price. They even have customer stamp reward cards like the coffee places do. Super friendly and personable staff and I’m so glad to have found such a sweet gem here in Seguin! This will be us and the kids new ice cream place, especially this summer. 10/10",
+      rating: 5,
+    },
+    {
+      id: 4,
+      name: "Stephanie",
+      role: "Happy Customer",
+      text: "Best Banana Split ever!!! Very nice staff and large selection of ice cream with free samples.",
       rating: 5,
     },
   ];
@@ -50,7 +57,7 @@ const Testimonials = () => {
                   </span>
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">`{testimonial.text}</p>
+              <p className="text-gray-700 mb-6 italic">&ldquo;{testimonial.text}&rdquo;</p>
               <div>
                 <p className="font-bold font-poppins text-gray-900">
                   {testimonial.name}
