@@ -57,7 +57,7 @@ const BentoGrid = () => {
         </div>
 
         {/* Full Menu Grid */}
-        <div className="grid grid-cols-4 gap-6 mb-12 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        <div className="grid lg:grid-cols-4 gap-6 mb-12 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
           {snacks.map((snack) => (
             <GridBoxes key={snack.id} snack={snack} />
           ))}
