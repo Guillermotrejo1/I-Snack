@@ -5,13 +5,13 @@ const FeaturedBoxes = ({ snack }: { snack: { id: number; name: string; image: st
   return (
     <div className="bg-gray-50 rounded-2xl aspect-square w-full shadow-lg hover:shadow-2xl transition-shadow overflow-hidden">
       <div className="h-1 w-full bg-linear-to-r from-blue-500 to-green-500" />
-      <div className="p-4 w-full h-full flex flex-col items-center justify-center cursor-pointer">
+      <div className="p-4 w-full h-full flex flex-col items-center justify-center">
         <Image
           src={snack.image}
           alt={snack.name}
           width={480}
           height={480}
-          className="w-60 h-60 object-cover rounded-lg mb-3"
+          className="w-24 h-24 md:w-60 md:h-60 object-cover rounded-lg mb-3"
         />
         <span className="text-black text-base font-semibold text-center line-clamp-2">{snack.name}</span>
       </div>

@@ -30,17 +30,17 @@ const BentoGrid = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold font-poppins text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-poppins text-gray-900 mb-4">
             Featured Favorites
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
             Try our most popular snacks, handpicked for their authentic flavor
             and quality.
           </p>
         </div>
 
         {/* Featured Grid */}
-        <div className="grid grid-cols-2 gap-6 mb-16 md:grid-cols-2 sm:grid-cols-1 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-1 grid-cols-2 gap-6 mb-16 md:grid-cols-2  max-w-3xl mx-auto">
           {featured.map((snack) => (
             <FeaturedBoxes key={snack.id} snack={snack} />
           ))}
