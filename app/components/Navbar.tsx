@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import BurgerMenu from "./BurgerMenu";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,9 @@ const Navbar = () => {
           />
           <span className="text-white text-2xl font-bold font-poppins">I-Snack</span>
         </div>
-        <ul className="flex gap-8 items-center">
+
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex gap-8 items-center">
           <li>
             <a href="#home" className="text-white font-semibold hover:text-blue-100 transition-colors">
               Home
@@ -37,6 +40,9 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+
+        {/* Mobile Burger Menu */}
+        <BurgerMenu />
       </div>
     </nav>
   );
