@@ -64,7 +64,7 @@ const BentoGrid = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-green-500 rounded-2xl p-12 text-center text-white shadow-xl">
+        <div className="bg-linear-to-r from-blue-600 to-green-500 rounded-2xl p-12 text-center text-white shadow-xl">
           <h4 className="text-3xl font-bold font-poppins mb-4">
             Visit Us Today
           </h4>

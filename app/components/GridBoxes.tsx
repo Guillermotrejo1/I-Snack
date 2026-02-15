@@ -4,7 +4,7 @@ import React from "react";
 const GridBoxes = ({ snack }: { snack: { id: number; name: string; image: string } }) => {
   return (
     <div className="bg-gray-50 rounded-xl aspect-square w-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 overflow-hidden">
-      <div className="h-1 w-full bg-gradient-to-r from-blue-500 to-green-500" />
+      <div className="h-1 w-full bg-linear-to-r from-blue-500 to-green-500" />
       <div className="p-4 w-full h-full flex flex-col items-center justify-center cursor-pointer">
         <Image
           src={snack.image}

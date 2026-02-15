@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 via-teal-500 to-green-500 shadow-lg backdrop-blur-sm bg-opacity-95">
+    <nav className="sticky top-0 z-50 bg-linear-to-r from-blue-600 via-teal-500 to-green-500 shadow-lg backdrop-blur-sm bg-opacity-95">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <Image

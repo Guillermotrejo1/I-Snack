@@ -4,7 +4,7 @@ import React from 'react'
 const FeaturedBoxes = ({ snack }: { snack: { id: number; name: string; image: string } }) => {
   return (
     <div className="bg-gray-50 rounded-2xl aspect-square w-full shadow-lg hover:shadow-2xl transition-shadow overflow-hidden">
-      <div className="h-1 w-full bg-gradient-to-r from-blue-500 to-green-500" />
+      <div className="h-1 w-full bg-linear-to-r from-blue-500 to-green-500" />
       <div className="p-4 w-full h-full flex flex-col items-center justify-center cursor-pointer">
         <Image
           src={snack.image}
