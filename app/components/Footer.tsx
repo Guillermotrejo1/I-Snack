@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -16,28 +17,28 @@ const Footer = () => {
             <h4 className="text-xl font-bold font-poppins mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
+                <Link
                   href="#home"
                   className="text-blue-100 hover:text-white transition-colors"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#menu"
                   className="text-blue-100 hover:text-white transition-colors"
                 >
                   Menu
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#testimonials"
                   className="text-blue-100 hover:text-white transition-colors"
                 >
                   Reviews
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -56,15 +57,15 @@ const Footer = () => {
         <div className="border-t border-white/20 pt-8 flex flex-col items-center justify-between gap-4 md:flex-row text-sm text-blue-100">
           <span>© 2026 I-Snack. All rights reserved.</span>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">
+            <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
+            </Link>
+            <Link href="/terms" className="hover:text-white transition-colors">
               Terms
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Sitemap
-            </a>
+            </Link>
+            <Link href="/" className="hover:text-white transition-colors">
+              Home
+            </Link>
           </div>
         </div>
       </div>
