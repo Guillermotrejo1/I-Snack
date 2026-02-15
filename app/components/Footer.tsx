@@ -39,14 +39,6 @@ const Footer = () => {
                   Reviews
                 </a>
               </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="text-blue-100 hover:text-white transition-colors"
-                >
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
 
