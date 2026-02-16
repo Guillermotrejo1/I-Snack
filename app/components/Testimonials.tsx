@@ -39,7 +39,7 @@ const Testimonials = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins text-gray-900 mb-4">
             What Our Customers Say
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600">
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 whitespace-nowrap">
             Real reviews from real customers who love I-Snack
           </p>
         </div>
