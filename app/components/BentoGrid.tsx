@@ -40,7 +40,7 @@ const BentoGrid = () => {
         </div>
 
         {/* Featured Grid */}
-        <div className="grid sm:grid-cols-1 grid-cols-2 gap-6 mb-16 md:grid-cols-2  max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-1 grid-cols-2 gap-6 mb-16 md:grid-cols-2 max-w-3xl mx-auto">
           {featured.map((snack) => (
             <FeaturedBoxes key={snack.id} snack={snack} />
           ))}
