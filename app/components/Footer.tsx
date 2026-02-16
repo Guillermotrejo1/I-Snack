@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-linear-to-r from-blue-700 via-teal-600 to-green-600 text-white">
+    <footer id="contact" className="bg-linear-to-r from-blue-700 via-teal-600 to-green-600 text-white" data-aos="fade-in" data-aos-delay="200">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid gap-12 md:grid-cols-3 mb-12">
           <div>

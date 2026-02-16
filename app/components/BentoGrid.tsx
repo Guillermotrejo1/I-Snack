@@ -26,7 +26,7 @@ const BentoGrid = () => {
   ];
 
   return (
-    <section id="menu" className="py-20 px-6 bg-gray-50">
+    <section id="menu" className="py-20 px-6 bg-gray-50" data-aos="fade-in" data-aos-delay="200">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">

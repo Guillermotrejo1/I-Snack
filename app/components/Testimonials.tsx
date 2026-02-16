@@ -33,7 +33,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 px-6 bg-white">
+    <section id="testimonials" className="py-20 px-6 bg-white" data-aos="fade-in" data-aos-delay="200">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins text-gray-900 mb-4">

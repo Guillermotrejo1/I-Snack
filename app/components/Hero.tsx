@@ -5,6 +5,8 @@ const Hero = () => {
     <section
       id="home"
       className="bg-linear-to-br from-blue-600 via-teal-500 to-green-500 text-white py-20 px-6"
+      data-aos="fade-in"
+      data-aos-delay="100"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-[30px] text md:text-5xl lg:text-6xl font-bold font-poppins mb-4 whitespace-nowrap ">Welcome to I-Snack</h1>
