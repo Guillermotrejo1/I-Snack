@@ -12,6 +12,7 @@ const Navbar = () => {
             alt="I-Snack Logo"
             width={60}
             height={60}
+            priority
             className="rounded-lg"
           />
           <span className="text-white text-2xl font-bold font-poppins">I-Snack</span>
