@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const GridBoxes = ({ snack }: { snack: { id: number; name: string; image: string } }) => {
+const GridBoxes = ({ snack }: { snack: { id: number; name: string; image: string, price: number } }) => {
   return (
     <div className="bg-gray-50 rounded-xl aspect-square w-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 overflow-hidden">
       <div className="h-1 w-full bg-linear-to-r from-blue-500 to-green-500" />
@@ -11,9 +11,11 @@ const GridBoxes = ({ snack }: { snack: { id: number; name: string; image: string
           alt={snack.name}
           width={480}
           height={480}
-          className="w-60 h-60 object-cover rounded-lg mb-3"
+          loading="lazy"
+          className="w-56 h-56 object-cover rounded-lg"
         />
-        <span className="text-black text-base font-semibold text-center line-clamp-2">{snack.name}</span>
+        <span className="text-black text-base font-semibold text-center line-clamp-2 mt-2">{snack.name}</span>
+        <span className="text-black text-base font-semibold text-center line-clamp-2">${snack.price}</span>
       </div>
     </div>
   );

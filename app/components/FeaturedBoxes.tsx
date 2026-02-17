@@ -11,6 +11,7 @@ const FeaturedBoxes = ({ snack }: { snack: { id: number; name: string; image: st
           alt={snack.name}
           width={480}
           height={480}
+          loading="lazy"
           className="w-24 h-24 md:w-60 md:h-60 object-cover rounded-lg mb-2 md:mb-3"
         />
         <span className="text-black text-xs md:text-base font-semibold text-center line-clamp-2">{snack.name}</span>
