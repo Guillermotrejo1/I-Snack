@@ -13,7 +13,7 @@ const Navbar = () => {
             width={60}
             height={60}
             priority
-            className="rounded-lg"
+            className="rounded-lg w-15 h-15"
           />
           <span className="text-white text-2xl font-bold font-poppins">I-Snack</span>
         </div>
