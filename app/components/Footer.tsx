@@ -55,7 +55,17 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-8 flex flex-col items-center justify-between gap-4 md:flex-row text-sm text-blue-100">
-          <span>© 2026 I-Snack. All rights reserved.</span>
+          <div className="flex flex-col items-center gap-1 md:items-start">
+            <span>© 2026 I-Snack. All rights reserved.</span>
+            <a 
+              href="https://www.guillermotrejo.dev" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-xs text-blue-100/80 hover:text-white transition-colors"
+            >
+              Site by Guillermo Trejo
+            </a>
+          </div>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy
