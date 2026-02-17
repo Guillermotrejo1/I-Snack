@@ -33,13 +33,13 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 px-6 bg-white" data-aos="fade-in" data-aos-delay="200">
+    <section id="testimonials" className="py-20 px-6 bg-white" data-aos="fade-in">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins text-gray-900 mb-4">
             What Our Customers Say
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600 whitespace-nowrap">
+          <p className="text-xs sm:text-base md:text-lg text-gray-600 whitespace-nowrap">
             Real reviews from real customers who love I-Snack
           </p>
         </div>
