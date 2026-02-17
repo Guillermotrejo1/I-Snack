@@ -14,8 +14,10 @@ const GridBoxes = ({ snack }: { snack: { id: number; name: string; image: string
           loading="lazy"
           className="w-56 h-56 object-cover rounded-lg"
         />
-        <span className="text-black text-base font-semibold text-center line-clamp-2 mt-2">{snack.name}</span>
-        <span className="text-black text-base font-semibold text-center line-clamp-2">${snack.price}</span>
+        <span className="text-black text-sm font-bold text-center line-clamp-2 mt-2">{snack.name}</span>
+        <span className="text-black text-sm font-semibold text-center line-clamp-2">
+          ${snack.price.toFixed(2)}
+        </span>
       </div>
     </div>
   );

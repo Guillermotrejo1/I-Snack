@@ -4,25 +4,25 @@ import FeaturedBoxes from "./FeaturedBoxes";
 
 const BentoGrid = () => {
   const featured = [
-    { id: 1, name: "Fruit Cup", image: "/images/fruitCup.jpg" },
-    { id: 2, name: "Elote Chorreado", image: "/images/eloteChorreado.jpg" },
-    { id: 3, name: "Banana Split", image: "/images/bananaSplit.jpg" },
-    { id: 4, name: "Fresas Con Crema", image: "/images/fresasCremosas.jpg" },
+    { id: 1, name: "Fruit Cup", image: "/images/fruitCup.jpg", price: 6.5  },
+    { id: 2, name: "Elote Chorreado", image: "/images/eloteChorreado.jpg", price: 7.5  },
+    { id: 3, name: "Banana Split", image: "/images/bananaSplit.jpg", price: 8.5  },
+    { id: 4, name: "Fresas Con Crema", image: "/images/fresasCremosas.jpg", price: 7.0  },
   ];
 
   const snacks = [
-    { id: 1, name: "Fruit Cup", image: "/images/fruitCup.jpg", price: 6.50 },
-    { id: 2, name: "Elote Chorreado", image: "/images/eloteChorreado.jpg", price: 7.50 },
-    { id: 3, name: "Banana Split", image: "/images/bananaSplit.jpg", price: 8.50 },
+    { id: 1, name: "Fruit Cup", image: "/images/fruitCup.jpg", price: 6.5 },
+    { id: 2, name: "Elote Chorreado", image: "/images/eloteChorreado.jpg", price: 7.5 },
+    { id: 3, name: "Banana Split", image: "/images/bananaSplit.jpg", price: 8.5 },
     { id: 4, name: "Fresas Con Crema", image: "/images/fresasCremosas.jpg", price: 7.0 },
-    { id: 5, name: "Takis Con Queso", image: "/images/cheeseTakis.jpg", price: 5.50 },
+    { id: 5, name: "Takis Con Queso", image: "/images/cheeseTakis.jpg", price: 5.5 },
     { id: 6, name: "Mangonada", image: "/images/mangonada.jpg", price: 6.75 },
-    { id: 7, name: "Mini Pancakes", image: "/images/miniPancakes.jpg", price: 6.00 },
-    { id: 8, name: "Tacos Locos", image: "/images/tacosLocos.jpg", price: 6.50 },
+    { id: 7, name: "Mini Pancakes", image: "/images/miniPancakes.jpg", price: 6.0 },
+    { id: 8, name: "Tacos Locos", image: "/images/tacosLocos.jpg", price: 6.5 },
     { id: 9, name: "Rusa", image: "/images/rusa.jpg", price: 5.75 },
-    { id: 10, name: "Paletas De Nieve", image: "/images/paletas.jpg", price: 4.50 },
+    { id: 10, name: "Paletas De Nieve", image: "/images/paletas.jpg", price: 4.5 },
     { id: 11, name: "Pepino Preparado", image: "/images/pepino.jpg", price: 5.25 },
-    { id: 12, name: "Nieve Preparada", image: "/images/nievePreparada.jpg", price: 5.50 },
+    { id: 12, name: "Nieve Preparada", image: "/images/nievePreparada.jpg", price: 5.5 },
   ];
 
   return (
