@@ -21,22 +21,22 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 items-center">
           <li>
-            <a href="#home" className="text-white font-semibold hover:text-blue-100 transition-colors">
+            <a href="#home" className="text-white font-semibold transition-all duration-300 relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#menu" className="text-white font-semibold hover:text-blue-100 transition-colors">
+            <a href="#menu" className="text-white font-semibold transition-all duration-300 relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300">
               Menu
             </a>
           </li>
           <li>
-            <a href="#contact" className="text-white font-semibold hover:text-blue-100 transition-colors">
+            <a href="#contact" className="text-white font-semibold transition-all duration-300 relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300">
               Contact
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="text-white font-semibold hover:text-blue-100 transition-colors">
+            <a href="#testimonials" className="text-white font-semibold transition-all duration-300 relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white hover:after:w-full after:transition-all after:duration-300">
               Reviews
             </a>
           </li>
