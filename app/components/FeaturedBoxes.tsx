@@ -5,7 +5,7 @@ const FeaturedBoxes = ({ snack }: { snack: { id: number; name: string; image: st
   return (
     <div className="bg-gray-50 rounded-2xl aspect-square w-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 overflow-hidden">
       <div className="h-1 w-full bg-linear-to-r from-blue-500 to-green-500" />
-      <div className="p-2 md:p-4 w-full h-full flex flex-col items-center justify-center cursor-pointer">
+      <div className="p-2 md:p-4 w-full h-full flex flex-col items-center justify-center">
         <Image
           src={snack.image}
           alt={snack.name}
